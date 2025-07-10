@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hoş Geldiniz</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d9d9ff; /* Düz arka plan, koyu mor/mavi ton */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .container {
+      background-color: #7a7aee; /* Hafif şeffaf kutu */
+      padding: 40px 60px;
+      border-radius: 15px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      max-width: 480px;
+      width: 90%;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3em;
+      letter-spacing: 2px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h4 {
+      font-weight: 500;
+      margin-bottom: 1.5em;
+      color: white;
+      letter-spacing: 1px;
+    }
+    button {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      border: none;
+      padding: 14px 32px;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-weight: 600;
+      box-shadow: 0 6px 12px rgba(37,117,252,0.5);
+    }
+    button:hover {
+      background: linear-gradient(90deg, #2575fc, #6a11cb);
+      box-shadow: 0 8px 20px rgba(37,117,252,0.7);
+    }
+    button a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    p {
+      margin-top: 1.8em;
+      font-size: 1rem;
+      color: white;
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      .container {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hoş Geldiniz!</h1>
+    <h4>2025 Talya Staj Projesi</h4>
+    <button>
+      <a href="https://github.com/asudekayim/Talya" target="_blank" rel="noopener noreferrer">Github Repo</a>
+    </button>
+    <p>Asude Kayım</p>
+  </div>
+</body>
+</html>
