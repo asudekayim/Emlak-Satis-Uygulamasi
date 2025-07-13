@@ -64,3 +64,9 @@ SWOT ANALİZİ
 |--------------------------|----------------------|
 | Gerçek projeye dönüşebilir. | Güvenlik açıkları olabilir. |
 | Mobil uygulama olarak genişletilebilir. | Artan teknik borç ve bakım maliyeti artabilir. |
+
+Veri Tabanı Tasarımı
+-
+
+Tablolar ve Temel Alanlar:
+<img width="547" height="576" alt="image" src="https://github.com/user-attachments/assets/75fa8adb-ac8a-424e-9078-2318ca51acfe" />
